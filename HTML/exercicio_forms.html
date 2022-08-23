@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercício Forms</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1>Exercício - Formulário de Cadastro</h1>
+    <p><h2>Preencha os campos abaixo para realizar o cadastro.</h2></p>
+    <form>
+        
+        Nome: <input type="text" placeholder="Nome Completo"/>
+        <br />
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="example@email.com" />
+        <br />
+        <label for="password" id="password">Senha (mínimo 10 caracteres):</label>
+        <input type="password" id="password" name="password" minlength="10" required/>
+        <br />
+        <button type="submit">
+            Enviar 
+        </button>
+    </form>
+    </body>
+</html>
